@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+</head>
+<body>
+<section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Регистрация</legend>
+
+                <label for="email">Почта</label>
+                <input name="email" id="email" type="email" placeholder="некоторая@почта.рф" autofocus required>
+                <br>
+                <label for="password">Пароль</label>
+                <input name="password" id="password" type="password" placeholder="123456" required min="6">
+                <br>
+                <label for="man">Мужской</label>
+                <input type="radio" id="man" name="gender" value="man" checked>
+                <input type="radio" id="woman" name="gender" value="woman">
+                <label for="woman">Женский</label>
+                <br>
+                <textarea name="about" id="about" rows="10" placeholder="Добавьте пару слов о себе..."></textarea>
+                <br>
+                <input name="checkbox" type="checkbox" id="checkbox">
+                <label for="checkbox">Я соглашаюсь принимать абсолютно всю рекламу</label>
+                <br>
+                <button disabled type="submit" id="register">Зарегестрироваться</button>
+            </fieldset>
+        </form>
+</section>
+</body>
+</html>
